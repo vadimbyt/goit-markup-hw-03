@@ -190,6 +190,7 @@ a {
     height: 16px;
     left: 215px;
     top: 774px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -277,6 +278,13 @@ a {
     opacity: 60%;
 }
 
+.f-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
 
 /*-------------------PORTFOLIO-------------------*/
 
@@ -323,14 +331,12 @@ a {
 }
 
 .project-style {
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: var(--sub-text-color);
 }
 
 .project-info {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
     color: var(--accent-color);
