@@ -56,6 +56,7 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    outline: 1px solid red;
 }
 
 ul,
@@ -72,8 +73,8 @@ a {
 
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 
@@ -141,6 +142,7 @@ a {
 .hero {
     text-align: center;
     background-color: var(--hero-bg-color);
+    height: 600px;
 }
 
 .hero-title {
@@ -161,8 +163,6 @@ a {
     font-family: 'Roboto';
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -171,6 +171,7 @@ a {
     background-color: var(--accent-second-color);
     color: var(--accent-color);
     padding: 10px 32px;
+    margin-top: 30px;
     cursor: pointer;
 }
 
@@ -189,21 +190,19 @@ a {
 .peculiarities-title {
     width: 270px;
     height: 16px;
-    left: 215px;
-    top: 774px;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 94px;
 }
 
 .peculiarities-info {
     width: 270px;
     height: 75px;
-    left: 215px;
-    top: 800px;
     line-height: 1.71;
     color: var(--sub-text-color);
+    margin-top: 10px;
 }
 
 
@@ -219,6 +218,8 @@ a {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .skills-list {
@@ -238,6 +239,7 @@ a {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .team-list {
@@ -248,12 +250,15 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-top: 30px;
 }
 
 .job {
     font-size: 16px;
     line-height: 1.18;
     color: var(--sub-text-color);
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -265,7 +270,7 @@ a {
 }
 
 .footer-list {
-
+    
 }
 
 .footer-map {
