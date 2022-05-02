@@ -67,6 +67,17 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 /*-------------------HEADER-------------------*/
 
@@ -217,7 +228,6 @@ a {
 
 
 .peculiarities {
-    margin-top: 94px;
 }
 
 .peculiarities-list {
@@ -250,14 +260,13 @@ a {
 
 
 .skills {
-    margin-top: 94px;
-    padding-bottom: 94px
+    padding-top: 0;
 }
 
 .skills-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -274,8 +283,6 @@ a {
 
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color:var(--team-bg-color);
 }
 
@@ -370,8 +377,7 @@ a {
 
 
 .projects {
-    margin-top: 94px;
-    margin-bottom: 94px;
+
 }
 
 .projects-buttons-list {
@@ -399,8 +405,6 @@ a {
     background-color: var(--portfolio-btn-color);
     border: var(--accent-second-color);
     border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
     padding: 6px 22px;
     cursor: pointer;
 }
@@ -412,8 +416,13 @@ a {
 
 .project {
     width: 370px;
-    height: 404px;
-    border: 1px solid #EEEEEE;
+}
+
+.project-info {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .project:not(:nth-last-child(-n + 3)) {
@@ -430,20 +439,11 @@ a {
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    margin-left: 24px;
     color: var(--accent-text-color);
 }
 
 .project-style {
     font-size: 16px;
-    line-height: 30px;
-    margin-left: 24px;
-    margin-bottom: 20px;
+    line-height: 1.88;
     color: var(--sub-text-color);
-}
-
-.project-info {
-    font-size: 18px;
-    line-height: 1.55;
-    color: var(--accent-color);
 }
